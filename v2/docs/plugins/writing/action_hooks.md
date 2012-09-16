@@ -81,4 +81,4 @@ if you want.
 It takes `env` again which is the state bag which is now populated with
 whatever previous actions put in it. When you're ready to call the next action,
 call `@app.call(env)`. This allows you to do pre and post actions depending
-on whether its before or after the `@app.call`.
+on whether it's before or after the `@app.call`.
